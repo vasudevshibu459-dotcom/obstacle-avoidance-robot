@@ -1,0 +1,17 @@
+obstacle_avoidance:
+  ros__parameters:
+    safe_distance: 0.5
+    linear_speed: 0.15
+    angular_speed: 0.5
+    scan_topic: "/scan"
+    cmd_vel_topic: "/cmd_vel"
+    front_sector_degrees: 30
+
+robot_kinematics:
+  ros__parameters:
+    wheel_separation: 0.46
+    wheel_radius: 0.10
+    max_linear_velocity: 1.0
+    max_angular_velocity: 1.5
+    max_linear_acceleration: 2.0
+    max_angular_acceleration: 3.0
